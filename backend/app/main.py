@@ -97,6 +97,12 @@ def export_markdown(video_id: str):
     for term in video.get('terminology', []):
         md += f"- **{term['term']}** *({term['category']})*: {term['explanation']}\n"
 
+    md += """
+---
+
+## Penafian & Penghargaan
+Semua rakaman video kuliah asal yang diringkaskan di sini adalah hasil usaha gigih dan dedikasi berterusan pihak **PROmediaTAJDID**, **Pejabat Mufti Negeri Perlis**, dan seluruh barisan pasukan penerbitan yang bertungkus-lumus merakam serta menyiarkan kuliah pengajian ini. FahamCeramah hanya menyediakan ringkasan bertulis semata-mata untuk memudahkan capaian ilmu, rujukan, serta manfaat mereka yang memerlukan.
+"""
     return md
 
 @app.get("/api/search")

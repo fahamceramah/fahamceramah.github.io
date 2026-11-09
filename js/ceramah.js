@@ -332,6 +332,8 @@ function downloadMarkdown(v) {
     md += `- **${term.term}** *(${term.category})*: ${term.explanation}\n`;
   });
 
+  md += `\n---\n\n## Penafian & Penghargaan\nSemua rakaman video kuliah asal yang diringkaskan di sini adalah hasil usaha gigih dan dedikasi berterusan pihak **PROmediaTAJDID**, **Pejabat Mufti Negeri Perlis**, dan seluruh barisan pasukan penerbitan yang bertungkus-lumus merakam serta menyiarkan kuliah pengajian ini. FahamCeramah hanya menyediakan ringkasan bertulis semata-mata untuk memudahkan capaian ilmu, rujukan, serta manfaat mereka yang memerlukan.\n`;
+
   const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
