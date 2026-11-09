@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FahamCeramah — Perpustakaan Ilmu & Ringkasan Kuliah Hadis Dr. MAZA</title>
+  <meta name="description" content="Ringkasan bertulis komprehensif kuliah pengajian agama Islam Bahasa Melayu. Mesra mudah alih dan boleh diakses untuk golongan pekak dan sukar mendengar.">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/accessibility.css">
+  <link rel="stylesheet" href="/static/css/responsive.css">
+</head>
+<body>
+  <!-- Skip to Content for Keyboard and Screen Readers -->
+  <a href="#main-content" class="skip-link">Langkau ke kandungan utama</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo" aria-label="FahamCeramah Laman Utama">
+        <span>📖 FahamCeramah</span>
+        <span class="brand-badge">Aksesibiliti</span>
+      </a>
+      <nav class="header-nav" aria-label="Navigasi Utama">
+        <a href="/" class="nav-link active"><span>Koleksi</span> Siri</a>
+        <a href="#glosari" class="nav-link" onclick="alert('Glosari istilah terdapat di dalam setiap halaman ceramah khusus.'); return false;">Glosari</a>
+        <a href="#tentang" class="nav-link" onclick="document.getElementById('tentang').scrollIntoView({behavior: 'smooth'}); return false;">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main id="main-content">
+    <section class="hero-section">
+      <div class="container">
+        <div style="display: flex; gap: var(--space-xs); align-items: center; margin-bottom: var(--space-xs);">
+          <span class="siri-badge">Pengajian Kitab</span>
+          <span style="font-size: var(--font-xs); color: var(--text-soft);">Masjid Alwi, Kangar, Perlis</span>
+        </div>
+        <h1>Syarah Bulughul Maram</h1>
+        <p class="hero-subtitle">
+          Ringkasan bertulis komprehensif kuliah hadis ahkam oleh <strong>SS Dato' Dr. Mohd Asri Zainul Abidin (Dr. MAZA)</strong>.
+          Diformat khusus untuk memudahkan pembacaan golongan pekak, sukar mendengar, dan rujukan pencinta ilmu.
+        </p>
+
+        <div class="stat-pills" aria-label="Statistik Kandungan">
+          <div class="stat-pill">
+            <span>📚 Siri Kitab:</span>
+            <strong id="stat-total-videos">10 Kuliah</strong>
+          </div>
+          <div class="stat-pill">
+            <span>⏱ Jumlah Rekod:</span>
+            <strong id="stat-total-hours">~14 Jam</strong>
+          </div>
+          <div class="stat-pill">
+            <span>📜 Dalil Disemak:</span>
+            <strong id="stat-total-hadith">Hadis & Al-Quran</strong>
+          </div>
+          <div class="stat-pill">
+            <span>♿ Kebolehcapaian:</span>
+            <strong>WCAG 2.2 AA</strong>
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-wrapper" role="search">
+          <label for="search-input" class="sr-only">Cari topik, dalil, atau hukum dalam ceramah</label>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Cari topik (contoh: air dua kolah, anjing, air laut, bangkai)..."
+            aria-label="Cari topik ceramah">
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Grid Section -->
+    <section class="container" style="padding-top: var(--space-xl);">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-sm); flex-wrap: wrap; gap: var(--space-xs);">
+        <h2>Senarai Siri Pengajian (Kitab Thaharah)</h2>
+        <span style="font-size: var(--font-sm); color: var(--text-muted);">Pilih mana-mana siri untuk membaca ringkasan penuh</span>
+      </div>
+
+      <div class="video-grid" id="video-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container" id="tentang" style="padding: var(--space-2xl) var(--space-md); border-top: 1px solid var(--border-subtle); margin-top: var(--space-2xl);">
+      <div class="content-box">
+        <h2>Prinsip Projek FahamCeramah</h2>
+        <p>
+          Projek ini dibina sebagai wadah pemeliharaan ilmu agama dan instrumen kebolehcapaian (accessibility) bagi membolehkan masyarakat yang mengalami masalah pendengaran atau lebih gemar membaca untuk menelaah kuliah-kuliah agama Malaysia dengan tepat.
+        </p>
+        <p>
+          <strong>Prinsip Integriti Ilmu:</strong> Aplikasi ini bukanlah penjana fatwa. Segala ringkasan, matan hadis, dan huraian fiqh diekstrak secara setia daripada penyampaian SS Dr. MAZA dan kitab himpunan hadis hukum Al-Hafiz Ibn Hajar Al-Asqalani tanpa sebarang rekaan atau tokok tambah dalil.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-md);">
+      <div>
+        <p style="margin: 0; font-weight: 600; color: var(--text-main);">FahamCeramah</p>
+        <p style="margin: 0; font-size: var(--font-xs);">Wadah Kuliah Agama Bahasa Melayu Boleh Akses</p>
+      </div>
+      <div>
+        <p style="margin: 0; font-size: var(--font-xs);">Sumber: PROmediaTAJDID & Pejabat Mufti Perlis</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

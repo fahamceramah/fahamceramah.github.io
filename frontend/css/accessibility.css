@@ -1,0 +1,146 @@
+/* FahamCeramah - Accessibility, Themes & Contrast Stylesheet (WCAG 2.2 AA) */
+
+/* Screen Reader Only Utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Skip to Content Link */
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: var(--space-md);
+  background-color: var(--accent-primary);
+  color: #ffffff;
+  padding: var(--space-xs) var(--space-md);
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  z-index: 100;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* Visible Focus Indicator (WCAG 2.4.7 & 1.4.11) */
+:focus-visible {
+  outline: 3px solid var(--accent-primary) !important;
+  outline-offset: 2px !important;
+}
+
+/* ----------------------------------------------------
+   THEME 1: SEPIA (Warm Reading Mode)
+   ---------------------------------------------------- */
+[data-theme="sepia"] {
+  --bg-primary: #f6f1e8;
+  --bg-surface: #ede6d9;
+  --bg-muted: #e4dcce;
+  --bg-card: #f9f6f0;
+  --border-subtle: #d8cebe;
+  --border-strong: #c2b5a1;
+
+  --text-main: #342821;
+  --text-muted: #5e4c41;
+  --text-soft: #7a6659;
+
+  --accent-primary: #854d0e;
+  --accent-hover: #713f12;
+  --accent-light: #fef9c3;
+  --accent-border: #fde047;
+  --accent-text: #713f12;
+
+  --badge-verified-bg: #fef08a;
+  --badge-verified-text: #713f12;
+  --badge-verified-border: #eab308;
+}
+
+/* ----------------------------------------------------
+   THEME 2: DARK SLATE (Night Mode)
+   ---------------------------------------------------- */
+[data-theme="dark"] {
+  --bg-primary: #0b0f19;
+  --bg-surface: #111827;
+  --bg-muted: #1f2937;
+  --bg-card: #151e30;
+  --border-subtle: #26334d;
+  --border-strong: #374151;
+
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --text-soft: #6b7280;
+
+  --accent-primary: #10b981;
+  --accent-hover: #34d399;
+  --accent-light: #064e3b;
+  --accent-border: #059669;
+  --accent-text: #6ee7b7;
+
+  --badge-verified-bg: #064e3b;
+  --badge-verified-text: #a7f3d0;
+  --badge-verified-border: #059669;
+
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .arabic-text {
+  background-color: #172033;
+  color: #f9fafb;
+}
+
+/* ----------------------------------------------------
+   PRINT STYLESHEET (PDF & Print Friendly)
+   ---------------------------------------------------- */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  .site-header,
+  .site-footer,
+  .sticky-bottom-bar,
+  .video-embed-container,
+  .tab-nav-wrapper,
+  .btn-print,
+  .search-wrapper,
+  .no-print {
+    display: none !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .tab-pane {
+    display: block !important;
+    margin-bottom: 24pt !important;
+    page-break-inside: avoid;
+  }
+
+  .arabic-text {
+    border: 1px solid #ccc !important;
+    background: #fdfdfd !important;
+    font-size: 14pt !important;
+  }
+
+  a {
+    color: #000000 !important;
+    text-decoration: none !important;
+  }
+}

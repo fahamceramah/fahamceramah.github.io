@@ -1,0 +1,6 @@
+app_name: "FahamCeramah"
+app_version: "1.0.0"
+database_path: "data/database/fahamceramah.db"
+default_model: "gemini-3.5-flash"
+fallback_model: "gemini-3.1-flash-lite"
+language: "ms-MY"

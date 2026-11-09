@@ -1,0 +1,26 @@
+active_providers:
+  transcription:
+    provider: gemini
+  summarization:
+    provider: gemini
+  embeddings:
+    provider: local
+
+providers:
+  gemini:
+    enabled: true
+    model: gemini-3.5-flash
+    fallback_model: gemini-3.1-flash-lite
+    temperature: 0.2
+
+  faster_whisper:
+    enabled: false
+    model: large-v3
+    device: cuda
+    compute_type: float16
+
+  qwen:
+    enabled: false
+    endpoint: http://localhost:1234/v1
+    model: qwen2.5-27b-instruct
+    temperature: 0.2
