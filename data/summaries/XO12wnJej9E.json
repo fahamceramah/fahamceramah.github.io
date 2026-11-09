@@ -1,0 +1,116 @@
+{
+  "video_id": "XO12wnJej9E",
+  "series_no": 94,
+  "title": "01-10-2020 SS DATO' DR. MAZA: Bab Azan | BM (siri 94)",
+  "short_title": "Bab Azan",
+  "speaker": "SS Dato' Dr. Mohd Asri Zainul Abidin (Dr. MAZA)",
+  "series_name": "Bulughul Maram",
+  "book_section": "Kitab Thaharah / Kitab Ahkam",
+  "youtube_url": "https://www.youtube.com/watch?v=XO12wnJej9E",
+  "duration_sec": 4147,
+  "date_recorded": "20201002",
+  "summary": {
+    "short": "Kuliah ini membincangkan bab azan dalam kitab Bulughul Maram, memfokuskan kepada tatacara azan yang disyariatkan serta perbezaan pendapat dalam kalangan fuqaha mengenai lafaz-lafaz azan. Dr. MAZA menekankan kepentingan mengikuti sunnah Nabi SAW secara tepat dalam ibadah azan tanpa menambah-nambah perkara yang tidak disandarkan kepada dalil yang sahih.",
+    "detailed": "Dalam siri ke-94 ini, Dr. MAZA mengupas hadis-hadis berkaitan azan, bermula dengan hadis Abdullah bin Zaid mengenai mimpi azan dan hadis Anas bin Malik tentang lafaz azan yang digenapkan. Perbincangan menyentuh perbezaan antara mazhab Syafi'i, Hanafi, dan lain-lain mengenai bilangan lafaz takbir dan kalimah syahadah. Dr. MAZA memberikan tarjih dengan menekankan bahawa sunnah yang paling kuat adalah lafaz yang diriwayatkan dalam hadis sahih, serta menolak amalan yang dianggap bidaah jika ia bercanggah dengan nas. Beliau juga menyentuh adab-adab azan dan kepentingan muazzin memahami tuntutan syarak dalam melaungkan azan.",
+    "key_takeaways": [
+      "Azan adalah syiar Islam yang agung dan tatacaranya mestilah berpandukan sunnah Nabi SAW.",
+      "Lafaz azan yang sahih adalah berdasarkan riwayat yang mutawatir dan masyhur dalam kitab-kitab hadis.",
+      "Perbezaan pendapat dalam kalangan mazhab adalah rahmat, namun dalam ibadah, kita perlu memilih dalil yang paling kuat (rajih).",
+      "Muazzin perlu menjaga kualiti sebutan dan tertib dalam azan.",
+      "Tidak digalakkan menambah lafaz-lafaz lain ke dalam azan yang tidak diajarkan oleh Rasulullah SAW.",
+      "Azan berfungsi sebagai pemberitahuan masuk waktu solat dan ajakan kepada kejayaan (falah)."
+    ]
+  },
+  "topics": [
+    {
+      "start_time": 0,
+      "timestamp": "00:00",
+      "title": "Muqaddimah dan Kepentingan Azan",
+      "summary": "Pengenalan kepada bab azan dalam kitab Bulughul Maram dan kedudukan azan sebagai syiar Islam.",
+      "key_points": [
+        "Definisi azan dari sudut bahasa dan istilah.",
+        "Dalil pensyariatan azan melalui mimpi Abdullah bin Zaid.",
+        "Kepentingan azan sebagai tanda masuk waktu solat."
+      ]
+    },
+    {
+      "start_time": 600,
+      "timestamp": "10:00",
+      "title": "Lafaz-Lafaz Azan dan Perbezaan Mazhab",
+      "summary": "Analisis perbezaan lafaz azan antara mazhab Syafi'i dan mazhab lain.",
+      "key_points": [
+        "Perbincangan mengenai bilangan takbir di awal azan.",
+        "Perbezaan pendapat tentang pengulangan kalimah syahadah.",
+        "Analisis hadis Anas bin Malik tentang azan yang digenapkan."
+      ]
+    },
+    {
+      "start_time": 1800,
+      "timestamp": "30:00",
+      "title": "Hukum Menambah Lafaz dalam Azan",
+      "summary": "Dr. MAZA mengulas mengenai amalan menambah lafaz seperti selawat atau zikir selepas azan.",
+      "key_points": [
+        "Prinsip ibadah adalah tauqifiyyah (berdasarkan nas).",
+        "Larangan menambah perkara baru yang tidak disyariatkan.",
+        "Kedudukan selawat ke atas Nabi SAW selepas azan."
+      ]
+    },
+    {
+      "start_time": 3000,
+      "timestamp": "50:00",
+      "title": "Adab dan Syarat Muazzin",
+      "summary": "Perbincangan mengenai sifat-sifat yang perlu ada pada seorang muazzin.",
+      "key_points": [
+        "Kepentingan suara yang jelas dan fasih.",
+        "Syarat keadilan dan amanah seorang muazzin.",
+        "Adab menghadap kiblat semasa azan."
+      ]
+    },
+    {
+      "start_time": 3600,
+      "timestamp": "60:00",
+      "title": "Penutup dan Soal Jawab",
+      "summary": "Kesimpulan kuliah dan menjawab persoalan berkaitan azan daripada audiens.",
+      "key_points": [
+        "Rumusan tentang kepentingan mengikuti sunnah.",
+        "Jawapan mengenai azan bagi solat yang dijamak.",
+        "Penutup majlis ilmu."
+      ]
+    }
+  ],
+  "religious_references": [
+    {
+      "type": "hadith",
+      "reference": "Sahih Bukhari (603) & Muslim (378)",
+      "text_ar": "عَنْ أَنَسِ بْنِ مَالِكٍ قَالَ: أُمِرَ بِلَالٌ أَنْ يَشْفَعَ الْأَذَانَ وَيُوتِرَ الْإِقَامَةَ",
+      "text_ms": "Daripada Anas bin Malik r.a. katanya: Bilal diperintahkan untuk menggenapkan lafaz azan dan mengganjilkan lafaz iqamah.",
+      "narrator": "Anas bin Malik r.a.",
+      "source_book": "Sahih Bukhari & Muslim",
+      "grade": "Sahih",
+      "verification_status": "verified"
+    }
+  ],
+  "terminology": [
+    {
+      "term": "Azan",
+      "category": "Fiqh",
+      "explanation": "Pemberitahuan masuk waktu solat dengan lafaz-lafaz tertentu."
+    },
+    {
+      "term": "Tauqifiyyah",
+      "category": "Usul Fiqh",
+      "explanation": "Sesuatu perkara ibadah yang ketetapannya mestilah berdasarkan wahyu (Al-Quran dan Sunnah) semata-mata."
+    },
+    {
+      "term": "Tarjih",
+      "category": "Usul Fiqh",
+      "explanation": "Proses memilih pendapat yang lebih kuat dalilnya apabila berlaku perbezaan pendapat."
+    },
+    {
+      "term": "Bidaah",
+      "category": "Hadis",
+      "explanation": "Perkara baru dalam urusan agama yang tidak mempunyai sandaran dalil syarak."
+    }
+  ],
+  "faq": []
+}

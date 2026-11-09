@@ -1,0 +1,106 @@
+{
+  "video_id": "VaG0W4oWia8",
+  "series_no": 65,
+  "title": "14-03-2019 SS. DATO' DR. MAZA: Mandi Ketika Memeluk Islam | BM (siri 65)",
+  "short_title": "Mandi Ketika Memeluk Islam",
+  "speaker": "SS Dato' Dr. Mohd Asri Zainul Abidin (Dr. MAZA)",
+  "series_name": "Bulughul Maram",
+  "book_section": "Kitab Thaharah / Kitab Ahkam",
+  "youtube_url": "https://www.youtube.com/watch?v=VaG0W4oWia8",
+  "duration_sec": 4250,
+  "date_recorded": "20190315",
+  "summary": {
+    "short": "Kuliah ini membincangkan hukum mandi bagi seseorang yang baru memeluk Islam berdasarkan kisah Thumamah bin Uthal. Dr. MAZA menjelaskan perbezaan pandangan ulama mengenai sama ada mandi tersebut bersifat wajib atau sekadar sunat.",
+    "detailed": "Dr. MAZA mengupas hadis riwayat Abu Hurairah r.a. mengenai perintah Nabi SAW kepada Thumamah bin Uthal untuk mandi setelah beliau memeluk Islam. Perbincangan utama tertumpu kepada hukum asal mandi bagi mualaf. Mazhab Syafi'i cenderung menghukumkan mandi bagi orang yang baru memeluk Islam sebagai wajib, manakala sebahagian ulama lain berpendapat ia adalah sunat kerana tiada nas yang secara mutlak mewajibkannya ke atas setiap individu yang masuk Islam. Dr. MAZA menekankan bahawa walaupun terdapat perbezaan pendapat, mandi merupakan satu bentuk pensucian diri yang sangat digalakkan bagi seseorang yang memulakan lembaran hidup baru sebagai Muslim.",
+    "key_takeaways": [
+      "Mandi bagi orang yang baru memeluk Islam adalah disyariatkan.",
+      "Terdapat perbezaan pendapat ulama antara wajib dan sunat.",
+      "Pensucian diri adalah simbolik kepada pembersihan jiwa daripada kekufuran.",
+      "Kisah Thumamah bin Uthal menjadi dalil utama dalam perbincangan ini.",
+      "Penting untuk memahami konteks hadis sebelum menetapkan hukum yang mutlak.",
+      "Islam sangat mementingkan kebersihan fizikal dan rohani."
+    ]
+  },
+  "topics": [
+    {
+      "start_time": 0,
+      "timestamp": "00:00",
+      "title": "Pengenalan Kitab Bulughul Maram",
+      "summary": "Mukadimah mengenai kepentingan mempelajari kitab Bulughul Maram dalam memahami hukum-hakam fiqh.",
+      "key_points": [
+        "Kepentingan hadis sebagai sumber hukum kedua.",
+        "Metodologi Ibn Hajar al-Asqalani dalam menyusun kitab."
+      ]
+    },
+    {
+      "start_time": 600,
+      "timestamp": "10:00",
+      "title": "Kisah Thumamah bin Uthal",
+      "summary": "Penceritaan latar belakang Thumamah bin Uthal dan peristiwa beliau memeluk Islam.",
+      "key_points": [
+        "Siapakah Thumamah bin Uthal.",
+        "Peristiwa penawanan dan interaksi dengan Nabi SAW."
+      ]
+    },
+    {
+      "start_time": 1800,
+      "timestamp": "30:00",
+      "title": "Hukum Mandi Bagi Mualaf",
+      "summary": "Perbahasan fiqh mengenai perintah mandi bagi orang yang baru masuk Islam.",
+      "key_points": [
+        "Pandangan Mazhab Syafi'i tentang kewajipan mandi.",
+        "Hujah ulama yang mengatakan ia sunat."
+      ]
+    },
+    {
+      "start_time": 3000,
+      "timestamp": "50:00",
+      "title": "Analisis Hadis dan Sanad",
+      "summary": "Dr. MAZA mengulas status hadis riwayat Abdur Razzaq dan asal usulnya yang Muttafaq Alaihi.",
+      "key_points": [
+        "Kepentingan menyemak sanad.",
+        "Kekuatan hadis dalam menetapkan hukum."
+      ]
+    },
+    {
+      "start_time": 4000,
+      "timestamp": "66:40",
+      "title": "Kesimpulan dan Penutup",
+      "summary": "Rumusan praktikal bagi mualaf dan masyarakat umum.",
+      "key_points": [
+        "Galakan mandi bagi mualaf.",
+        "Islam sebagai agama yang bersih."
+      ]
+    }
+  ],
+  "religious_references": [
+    {
+      "type": "hadith",
+      "reference": "Bulughul Maram, Bab Mandi",
+      "text_ar": "وَعَنْ أَبِي هُرَيْرَةَ رضي الله عنه ( -فِي قِصَّةِ ثُمَامَةَ بْنِ أُثَالٍ عِنْدَمَا أَسْلَم- وَأَمَرَهُ اَلنَّبِيُّ صلى الله عليه وسلم أَنْ يَغْتَسِلَ )",
+      "text_ms": "Dari Abu Hurairah r.a. (dalam kisah Thumamah bin Uthal ketika beliau memeluk Islam, Nabi SAW memerintahkannya untuk mandi).",
+      "narrator": "Abu Hurairah r.a.",
+      "source_book": "Riwayat Abdur Razzaq, asalnya Muttafaq Alaihi",
+      "grade": "Sahih",
+      "verification_status": "verified"
+    }
+  ],
+  "terminology": [
+    {
+      "term": "Mualaf",
+      "category": "Fiqh",
+      "explanation": "Orang yang baru memeluk agama Islam."
+    },
+    {
+      "term": "Muttafaq Alaihi",
+      "category": "Hadis",
+      "explanation": "Hadis yang diriwayatkan oleh Imam Bukhari dan Imam Muslim."
+    },
+    {
+      "term": "Ikhtilaf",
+      "category": "Usul Fiqh",
+      "explanation": "Perbezaan pendapat di kalangan para ulama dalam sesuatu hukum."
+    }
+  ],
+  "faq": []
+}

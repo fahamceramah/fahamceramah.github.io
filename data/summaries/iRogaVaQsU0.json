@@ -1,0 +1,116 @@
+{
+  "video_id": "iRogaVaQsU0",
+  "series_no": 80,
+  "title": "02-01-2020 SS. DATO' DR. MAZA: Mukadimah Bab Solat | BM (siri 80)",
+  "short_title": "Mukadimah Bab Solat",
+  "speaker": "SS Dato' Dr. Mohd Asri Zainul Abidin (Dr. MAZA)",
+  "series_name": "Bulughul Maram",
+  "book_section": "Kitab Thaharah / Kitab Ahkam",
+  "youtube_url": "https://www.youtube.com/watch?v=iRogaVaQsU0",
+  "duration_sec": 5155,
+  "date_recorded": "20200103",
+  "summary": {
+    "short": "Kuliah ini merupakan mukadimah kepada Bab Solat dalam kitab Bulughul Maram. Dr. MAZA menekankan kepentingan solat sebagai tiang agama dan ibadah yang paling utama selepas syahadah. Beliau mengupas kedudukan solat dalam Islam serta kepentingan memahami dalil-dalil yang sahih dalam melaksanakan ibadah ini agar menepati sunnah Nabi SAW.",
+    "detailed": "Dalam siri ke-80 ini, Dr. MAZA memulakan perbincangan mengenai Bab Solat dengan memberikan penekanan kepada kepentingan solat sebagai ibadah yang membezakan antara mukmin dan kafir. Beliau menjelaskan bahawa solat bukan sekadar ritual, tetapi hubungan langsung hamba dengan Allah SWT. Dr. MAZA mengulas metodologi Imam Ibn Hajar al-Asqalani dalam menyusun hadis-hadis hukum yang menjadi asas kepada perbincangan fiqh solat. Beliau turut menyentuh tentang pentingnya sikap berlapang dada dalam isu khilafiah yang bersifat ijtihadi, namun tetap berpegang teguh kepada dalil yang paling kuat (rajih) berdasarkan metodologi ahli hadis.",
+    "key_takeaways": [
+      "Solat adalah tiang agama yang menentukan kualiti iman seseorang.",
+      "Kepentingan merujuk kepada dalil yang sahih dalam setiap perbuatan solat.",
+      "Memahami perbezaan antara rukun, wajib, dan sunat dalam solat.",
+      "Sikap berlapang dada dalam isu khilafiah yang tidak melibatkan prinsip akidah.",
+      "Solat perlu dilaksanakan dengan penuh khusyuk dan mengikut tatacara Nabi SAW.",
+      "Menghindari amalan bidaah yang tiada sandaran dalil dalam ibadah solat."
+    ]
+  },
+  "topics": [
+    {
+      "start_time": 0,
+      "timestamp": "00:00",
+      "title": "Mukadimah dan Kepentingan Solat",
+      "summary": "Pengenalan kepada Bab Solat dan kedudukannya yang agung dalam syariat Islam.",
+      "key_points": [
+        "Solat sebagai tiang agama.",
+        "Perbezaan antara mukmin dan kafir adalah solat.",
+        "Kepentingan mempelajari fiqh solat secara mendalam."
+      ]
+    },
+    {
+      "start_time": 600,
+      "timestamp": "10:00",
+      "title": "Metodologi Kitab Bulughul Maram",
+      "summary": "Penjelasan mengenai keistimewaan kitab Bulughul Maram dalam menyusun hadis hukum.",
+      "key_points": [
+        "Kehebatan Imam Ibn Hajar al-Asqalani.",
+        "Penyusunan hadis mengikut bab fiqh.",
+        "Kepentingan memahami sanad dan matan."
+      ]
+    },
+    {
+      "start_time": 1800,
+      "timestamp": "30:00",
+      "title": "Kepentingan Dalil Sahih",
+      "summary": "Dr. MAZA menekankan keperluan berpegang kepada hadis sahih dalam ibadah.",
+      "key_points": [
+        "Bahaya beramal dengan hadis lemah atau palsu.",
+        "Kepentingan ilmu hadis dalam menentukan hukum.",
+        "Sikap berhati-hati dalam menisbahkan sesuatu kepada Nabi SAW."
+      ]
+    },
+    {
+      "start_time": 3000,
+      "timestamp": "50:00",
+      "title": "Isu Khilafiah dalam Solat",
+      "summary": "Perbincangan mengenai cara menangani perbezaan pendapat di kalangan fuqaha.",
+      "key_points": [
+        "Menghormati perbezaan pendapat yang berasaskan dalil.",
+        "Tidak fanatik kepada mazhab tertentu.",
+        "Mengutamakan dalil yang lebih kuat (rajih)."
+      ]
+    },
+    {
+      "start_time": 4200,
+      "timestamp": "70:00",
+      "title": "Persediaan Sebelum Solat",
+      "summary": "Perbincangan awal mengenai syarat sah solat dan kebersihan.",
+      "key_points": [
+        "Kepentingan bersuci (taharah).",
+        "Menjaga waktu solat.",
+        "Adab-adab sebelum memulakan solat."
+      ]
+    }
+  ],
+  "religious_references": [
+    {
+      "type": "hadith",
+      "reference": "Sahih Muslim No. 82",
+      "text_ar": "بَيْنَ الرَّجُلِ وَبَيْنَ الشِّرْكِ وَالْكُفْرِ تَرْكُ الصَّلاَةِ",
+      "text_ms": "Antara seseorang lelaki dengan syirik dan kufur itu adalah meninggalkan solat.",
+      "narrator": "Jabir bin Abdullah r.a.",
+      "source_book": "Sahih Muslim",
+      "grade": "Sahih",
+      "verification_status": "verified"
+    }
+  ],
+  "terminology": [
+    {
+      "term": "Khilafiah",
+      "category": "Fiqh",
+      "explanation": "Perkara-perkara yang mempunyai perbezaan pendapat di kalangan para ulama."
+    },
+    {
+      "term": "Rajih",
+      "category": "Usul Fiqh",
+      "explanation": "Pendapat atau dalil yang lebih kuat dan diutamakan."
+    },
+    {
+      "term": "Matan",
+      "category": "Hadis",
+      "explanation": "Teks atau kandungan sesuatu hadis."
+    },
+    {
+      "term": "Sanad",
+      "category": "Hadis",
+      "explanation": "Rantaian perawi yang menyampaikan sesuatu hadis."
+    }
+  ],
+  "faq": []
+}

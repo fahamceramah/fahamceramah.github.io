@@ -1,0 +1,107 @@
+{
+  "video_id": "8ZZEHVDYe9E",
+  "series_no": 82,
+  "title": "16-01-2020 SS. DATO' DR. MAZA: Tempoh Waktu Solat Maghrib Dan Isya | BM (siri 82)",
+  "short_title": "Tempoh Waktu Solat Maghrib Dan Isya",
+  "speaker": "SS Dato' Dr. Mohd Asri Zainul Abidin (Dr. MAZA)",
+  "series_name": "Bulughul Maram",
+  "book_section": "Kitab Thaharah / Kitab Ahkam",
+  "youtube_url": "https://www.youtube.com/watch?v=8ZZEHVDYe9E",
+  "duration_sec": 4825,
+  "date_recorded": "20200117",
+  "summary": {
+    "short": "Kuliah ini membincangkan perbahasan fiqh mengenai penentuan waktu solat Maghrib dan Isyak berdasarkan dalil-dalil sahih dalam kitab Bulughul Maram. Dr. MAZA menekankan kepentingan memahami batasan waktu solat yang ditetapkan oleh syarak bagi mengelakkan kekeliruan dalam pelaksanaan ibadah harian.",
+    "detailed": "Dalam siri ini, Dr. MAZA mengupas hadis-hadis berkaitan waktu solat Maghrib dan Isyak. Beliau menjelaskan bahawa waktu Maghrib bermula sebaik sahaja terbenam matahari dan berakhir apabila hilangnya cahaya merah (syafaq) di ufuk barat. Bagi waktu Isyak, ia bermula selepas hilangnya syafaq tersebut. Dr. MAZA turut menyentuh perbezaan pandangan dalam kalangan mazhab mengenai tempoh akhir waktu Isyak, sama ada sehingga pertengahan malam atau sehingga terbit fajar sadiq. Beliau cenderung kepada pandangan yang lebih fleksibel berdasarkan dalil-dalil yang menunjukkan keluasan waktu solat bagi mereka yang mempunyai keuzuran, namun tetap menekankan agar solat dilakukan di awal waktu bagi mengejar kelebihan berjemaah.",
+    "key_takeaways": [
+      "Waktu Maghrib bermula sebaik matahari terbenam sepenuhnya.",
+      "Waktu Maghrib berakhir apabila hilangnya cahaya merah (syafaq) di ufuk barat.",
+      "Waktu Isyak bermula sebaik sahaja waktu Maghrib berakhir.",
+      "Solat di awal waktu adalah lebih utama (afdal) bagi lelaki yang berjemaah di masjid.",
+      "Terdapat keluasan waktu bagi mereka yang uzur atau mempunyai halangan syarie.",
+      "Penting untuk merujuk kepada takwim solat yang tepat bagi kawasan masing-masing.",
+      "Perbezaan pendapat ulama adalah rahmat dan perlu diraikan dengan adab."
+    ]
+  },
+  "topics": [
+    {
+      "start_time": 0,
+      "timestamp": "00:00",
+      "title": "Mukadimah dan Kepentingan Waktu Solat",
+      "summary": "Pengenalan kepada kepentingan mengetahui waktu solat sebagai syarat sah ibadah.",
+      "key_points": [
+        "Kepentingan disiplin waktu dalam Islam.",
+        "Kaitan antara pergerakan matahari dan waktu solat."
+      ]
+    },
+    {
+      "start_time": 600,
+      "timestamp": "10:00",
+      "title": "Hadis Berkaitan Waktu Maghrib",
+      "summary": "Perbincangan mengenai hadis Jibril yang mengimami Rasulullah SAW.",
+      "key_points": [
+        "Penjelasan waktu Maghrib dalam hadis Jibril.",
+        "Definisi terbenam matahari."
+      ]
+    },
+    {
+      "start_time": 1800,
+      "timestamp": "30:00",
+      "title": "Definisi Syafaq (Cahaya Merah)",
+      "summary": "Analisis bahasa dan fiqh mengenai maksud syafaq.",
+      "key_points": [
+        "Perbezaan pendapat ulama mengenai warna syafaq.",
+        "Pandangan jumhur ulama."
+      ]
+    },
+    {
+      "start_time": 3000,
+      "timestamp": "50:00",
+      "title": "Waktu Isyak dan Pertengahan Malam",
+      "summary": "Perbahasan mengenai tempoh akhir waktu Isyak.",
+      "key_points": [
+        "Hadis mengenai waktu Isyak sehingga pertengahan malam.",
+        "Kelonggaran bagi mereka yang tertidur atau terlupa."
+      ]
+    },
+    {
+      "start_time": 4200,
+      "timestamp": "70:00",
+      "title": "Kesimpulan dan Soal Jawab",
+      "summary": "Rumusan perbincangan dan menjawab persoalan audiens.",
+      "key_points": [
+        "Adab berbeza pendapat dalam masalah fiqh.",
+        "Kepentingan menjaga waktu solat secara berjemaah."
+      ]
+    }
+  ],
+  "religious_references": [
+    {
+      "type": "hadith",
+      "reference": "Sahih Muslim, No. 612",
+      "text_ar": "وَوَقْتُ صَلَاةِ الْمَغْرِبِ إِذَا غَابَتِ الشَّمْسُ مَا لَمْ يَغِبِ الشَّفَقُ",
+      "text_ms": "Dan waktu solat Maghrib adalah apabila terbenam matahari selagi mana belum hilang syafaq (cahaya merah).",
+      "narrator": "Abdullah bin Amr r.a.",
+      "source_book": "Sahih Muslim",
+      "grade": "Sahih",
+      "verification_status": "verified"
+    }
+  ],
+  "terminology": [
+    {
+      "term": "Syafaq",
+      "category": "Fiqh",
+      "explanation": "Cahaya merah yang kelihatan di ufuk barat selepas matahari terbenam."
+    },
+    {
+      "term": "Jumhur",
+      "category": "Usul Fiqh",
+      "explanation": "Majoriti atau sebahagian besar ulama dalam sesuatu mazhab atau secara umum."
+    },
+    {
+      "term": "Fajar Sadiq",
+      "category": "Fiqh",
+      "explanation": "Cahaya putih yang merebak di ufuk timur yang menandakan masuknya waktu Subuh."
+    }
+  ],
+  "faq": []
+}

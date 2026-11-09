@@ -1,0 +1,117 @@
+{
+  "video_id": "37LcapW0X0M",
+  "series_no": 86,
+  "title": "05-03-2020 SS. DATO' DR. MAZA: Hukum Azan | BM (siri 86)",
+  "short_title": "Hukum Azan",
+  "speaker": "SS Dato' Dr. Mohd Asri Zainul Abidin (Dr. MAZA)",
+  "series_name": "Bulughul Maram",
+  "book_section": "Kitab Thaharah / Kitab Ahkam",
+  "youtube_url": "https://www.youtube.com/watch?v=37LcapW0X0M",
+  "duration_sec": 4821,
+  "date_recorded": "20200305",
+  "summary": {
+    "short": "Kuliah ini membincangkan hukum-hakam berkaitan azan berdasarkan kitab Bulughul Maram. Dr. MAZA menekankan kepentingan azan sebagai syiar Islam yang agung dan menjelaskan perbezaan pendapat ulama mengenai hukum azan serta syarat-syarat sahnya.",
+    "detailed": "Dr. MAZA mengupas bab azan dengan meneliti hadis-hadis sahih yang menjadi sandaran hukum. Beliau menjelaskan bahawa azan adalah fardu kifayah bagi solat berjemaah. Perbincangan merangkumi isu lafaz azan, kedudukan muazzin, serta adab-adab ketika azan dilaungkan. Dr. MAZA turut menyentuh perbezaan pandangan antara mazhab Syafi'i dan mazhab lain, sambil menekankan bahawa setiap perbezaan harus dilihat melalui kerangka dalil yang sahih. Beliau mentarjih pendapat yang lebih kuat berdasarkan nas yang jelas dan menolak amalan bidaah yang ditambah ke dalam azan tanpa sandaran dalil yang kukuh.",
+    "key_takeaways": [
+      "Azan merupakan syiar Islam yang wajib dilaungkan bagi setiap waktu solat berjemaah.",
+      "Hukum asal azan adalah fardu kifayah bagi penduduk sesebuah kawasan.",
+      "Lafaz azan hendaklah mengikut sunnah yang sahih tanpa tokok tambah.",
+      "Muazzin disunatkan dalam keadaan suci dan menghadap kiblat.",
+      "Menjawab azan dengan mengulangi lafaz muazzin adalah sunnah yang dituntut.",
+      "Solat tidak sah jika dilakukan sebelum masuk waktu, maka azan berfungsi sebagai pemberitahuan masuk waktu.",
+      "Kepentingan menjaga adab dan ketenangan semasa azan dilaungkan."
+    ]
+  },
+  "topics": [
+    {
+      "start_time": 0,
+      "timestamp": "00:00",
+      "title": "Muqaddimah dan Kepentingan Azan",
+      "summary": "Pengenalan kepada bab azan dalam kitab Bulughul Maram dan kedudukan azan dalam syariat Islam.",
+      "key_points": [
+        "Definisi azan dari sudut bahasa dan istilah.",
+        "Dalil pensyariatan azan dalam Islam.",
+        "Hikmah azan sebagai syiar tauhid."
+      ]
+    },
+    {
+      "start_time": 600,
+      "timestamp": "10:00",
+      "title": "Hukum Azan dan Iqamah",
+      "summary": "Perbincangan mengenai hukum azan sama ada fardu ain atau fardu kifayah.",
+      "key_points": [
+        "Pandangan mazhab Syafi'i tentang fardu kifayah.",
+        "Kepentingan azan bagi solat berjemaah di masjid dan surau.",
+        "Hukum azan bagi orang yang solat bersendirian."
+      ]
+    },
+    {
+      "start_time": 1800,
+      "timestamp": "30:00",
+      "title": "Lafaz-Lafaz Azan",
+      "summary": "Analisis terhadap lafaz azan yang sahih berdasarkan hadis Nabi SAW.",
+      "key_points": [
+        "Perbezaan lafaz azan antara mazhab.",
+        "Kepentingan mengikuti sunnah dalam lafaz.",
+        "Larangan menambah lafaz yang tidak disyariatkan."
+      ]
+    },
+    {
+      "start_time": 3000,
+      "timestamp": "50:00",
+      "title": "Syarat dan Adab Muazzin",
+      "summary": "Perbincangan mengenai kriteria individu yang melaungkan azan.",
+      "key_points": [
+        "Syarat sah muazzin (Islam, berakal, mumayyiz).",
+        "Sunnah menghadap kiblat dan bersuci.",
+        "Kelebihan menjadi muazzin."
+      ]
+    },
+    {
+      "start_time": 4200,
+      "timestamp": "70:00",
+      "title": "Menjawab Azan dan Doa Selepas Azan",
+      "summary": "Amalan sunnah bagi pendengar azan.",
+      "key_points": [
+        "Cara menjawab azan yang betul.",
+        "Doa selepas azan berdasarkan hadis.",
+        "Kelebihan menjawab azan."
+      ]
+    }
+  ],
+  "religious_references": [
+    {
+      "type": "hadith",
+      "reference": "Sahih al-Bukhari 605",
+      "text_ar": "إِذَا حَضَرَتِ الصَّلاَةُ فَلْيُؤَذِّنْ لَكُمْ أَحَدُكُمْ وَلْيَؤُمَّكُمْ أَكْبَرُكُمْ",
+      "text_ms": "Apabila tiba waktu solat, hendaklah salah seorang daripada kamu melaungkan azan dan hendaklah yang paling tua antara kamu menjadi imam.",
+      "narrator": "Malik bin al-Huwairith r.a.",
+      "source_book": "Sahih al-Bukhari",
+      "grade": "Sahih",
+      "verification_status": "verified"
+    }
+  ],
+  "terminology": [
+    {
+      "term": "Fardu Kifayah",
+      "category": "Fiqh",
+      "explanation": "Tuntutan agama yang jika dilakukan oleh sebahagian orang, maka gugur kewajipan ke atas orang lain."
+    },
+    {
+      "term": "Matan",
+      "category": "Hadis",
+      "explanation": "Teks atau isi kandungan sesuatu hadis."
+    },
+    {
+      "term": "Tarjih",
+      "category": "Usul Fiqh",
+      "explanation": "Proses memilih pendapat yang lebih kuat dalilnya apabila berlaku perbezaan pendapat."
+    },
+    {
+      "term": "Muazzin",
+      "category": "Fiqh",
+      "explanation": "Orang yang melaungkan azan."
+    }
+  ],
+  "faq": []
+}
