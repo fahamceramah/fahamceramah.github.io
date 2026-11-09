@@ -1,0 +1,363 @@
+/* FahamCeramah - Mobile-First Responsive & Ergonomic Layouts */
+
+/* Dedicated Ceramah Page Layout */
+.ceramah-header-meta {
+  padding: var(--space-lg) 0 var(--space-md);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ceramah-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--font-sm);
+  color: var(--text-soft);
+  margin-bottom: var(--space-sm);
+}
+
+.meta-tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  align-items: center;
+  margin-bottom: var(--space-md);
+}
+
+.meta-badge {
+  background-color: var(--bg-muted);
+  border: 1px solid var(--border-subtle);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-xs);
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Collapsible Video Player Bar */
+.video-collapsible-bar {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin: var(--space-md) 0 var(--space-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-subtle);
+}
+
+.video-toggle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-main);
+  font-family: inherit;
+  font-size: var(--font-sm);
+  font-weight: 600;
+  min-height: var(--touch-target);
+}
+
+.video-toggle-btn:hover {
+  background-color: var(--bg-muted);
+}
+
+.video-frame-container {
+  display: none;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.video-frame-container.is-open {
+  display: block;
+}
+
+.video-frame-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Scrollable Reading Tab Navigation */
+.tab-nav-wrapper {
+  position: sticky;
+  top: 64px;
+  z-index: 30;
+  background-color: var(--bg-surface);
+  border-bottom: 1.5px solid var(--border-subtle);
+  margin-bottom: var(--space-lg);
+  margin-left: calc(-1 * var(--space-md));
+  margin-right: calc(-1 * var(--space-md));
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tab-nav-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: var(--space-sm) var(--space-md);
+  font-family: inherit;
+  font-size: var(--font-sm);
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  min-height: var(--touch-target);
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab-btn:hover {
+  color: var(--accent-primary);
+}
+
+.tab-btn.active {
+  color: var(--accent-primary);
+  border-bottom-color: var(--accent-primary);
+}
+
+/* Tab Panes */
+.tab-pane {
+  display: none;
+  animation: fadeIn 0.15s ease-in-out;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Detailed Content Blocks */
+.content-box {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  box-shadow: var(--shadow-subtle);
+}
+
+.takeaway-list {
+  list-style: none;
+  margin: var(--space-md) 0;
+}
+
+.takeaway-item {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: var(--space-sm);
+  font-size: var(--font-base);
+  line-height: 1.6;
+}
+
+.takeaway-item::before {
+  content: "•";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  color: var(--accent-primary);
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+/* Topic Timeline Items */
+.topic-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.topic-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.topic-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.timestamp-badge {
+  background-color: var(--accent-light);
+  color: var(--accent-text);
+  font-family: var(--font-mono);
+  font-size: var(--font-xs);
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  border: 1px solid var(--accent-border);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+}
+
+.timestamp-badge:hover {
+  background-color: var(--accent-hover);
+  color: #ffffff;
+}
+
+/* Religious Reference Card */
+.reference-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--accent-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.ref-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.ref-grade {
+  background-color: var(--badge-verified-bg);
+  color: var(--badge-verified-text);
+  border: 1px solid var(--badge-verified-border);
+  font-size: var(--font-xs);
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+/* FAQ Accordion */
+.faq-item {
+  border-bottom: 1px solid var(--border-subtle);
+  padding: var(--space-md) 0;
+}
+
+.faq-question {
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: var(--space-xs);
+}
+
+.faq-answer {
+  color: var(--text-muted);
+  font-size: var(--font-base);
+}
+
+/* Glosari Grid */
+.glosari-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.term-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.term-badge {
+  font-size: var(--font-xs);
+  background-color: var(--bg-muted);
+  color: var(--text-soft);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-2xs);
+  display: inline-block;
+}
+
+/* Sticky Bottom Reading Control Bar (Mobile-Ergonomic) */
+.sticky-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 var(--space-md);
+  z-index: 50;
+  backdrop-filter: blur(8px);
+}
+
+.bottom-control-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: var(--font-xs);
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-width: 48px;
+  height: 100%;
+  padding: 4px;
+}
+
+.bottom-control-btn:hover, .bottom-control-btn.active {
+  color: var(--accent-primary);
+}
+
+/* Add bottom padding to body on ceramah page so bottom bar doesn't obscure content */
+.reading-page-body {
+  padding-bottom: 80px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 640px) {
+  :root {
+    --space-md: 12px;
+    --space-lg: 18px;
+    --space-xl: 24px;
+  }
+
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 { font-size: calc(1.5rem * var(--text-scale)); }
+  h2 { font-size: calc(1.3rem * var(--text-scale)); }
+
+  .header-nav .nav-link span {
+    display: none;
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ringkasan Ceramah — FahamCeramah</title>
+  <meta name="description" content="Halaman bacaan khusus ringkasan komprehensif kuliah pengajian Bulughul Maram oleh Dr. MAZA.">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/accessibility.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="reading-page-body">
+  <!-- Skip to Content -->
+  <a href="#ceramah-content" class="skip-link">Langkau terus ke teks bacaan ceramah</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Kembali ke Laman Utama FahamCeramah">
+        <span>← 📖 FahamCeramah</span>
+      </a>
+      <div style="display: flex; align-items: center; gap: var(--space-xs);">
+        <button type="button" class="nav-link" id="btn-print-top" onclick="window.print()" title="Cetak atau Simpan PDF" style="background: none; border: 1px solid var(--border-subtle); cursor: pointer;">
+          🖨️ <span style="margin-left: 4px;">Cetak / PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container" id="main-content" style="padding-top: var(--space-md);">
+    <!-- Loading State -->
+    <div id="loading-state" style="padding: 60px 0; text-align: center; color: var(--text-muted);" role="status" aria-live="polite">
+      <div style="display: inline-block; width: 40px; height: 40px; border: 3px solid var(--border-subtle); border-top-color: var(--accent-primary); border-radius: 50%; animation: spin 0.8s linear infinite;"></div>
+      <p style="margin-top: var(--space-md); font-weight: 500;">Sedang memuatkan ringkasan kuliah...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error-state" style="display: none; padding: 60px 0; text-align: center; color: var(--text-muted);" role="alert">
+      <h2>Ceramah tidak dijumpai</h2>
+      <p>Sila pastikan pautan ID siri ceramah adalah betul.</p>
+      <a href="index.html" class="siri-badge" style="display: inline-block; margin-top: var(--space-md); text-decoration: none;">Kembali ke Senarai Siri</a>
+    </div>
+
+    <!-- Dynamic Content Rendered by ceramah.js -->
+    <article id="ceramah-content" style="display: none;"></article>
+  </main>
+
+  <!-- Sticky Bottom Reading Controls Bar (Ergonomic One-Handed Mobile Nav) -->
+  <aside class="sticky-bottom-bar" aria-label="Kawalan Pembacaan Mesra Mudah Alih">
+    <button type="button" class="bottom-control-btn" id="btn-font-scale" aria-label="Laras saiz tulisan (A- / A / A+)">
+      <span style="font-size: 15px; font-weight: 700;">A+</span>
+      <span>Saiz Teks</span>
+    </button>
+
+    <button type="button" class="bottom-control-btn" id="btn-theme-toggle" aria-label="Tukar tema bacaan (Terang, Sepia, Gelap)">
+      <span style="font-size: 15px;">🎨</span>
+      <span>Tema</span>
+    </button>
+
+    <button type="button" class="bottom-control-btn" id="btn-export-md" aria-label="Eksport sebagai fail Markdown">
+      <span style="font-size: 15px;">📥</span>
+      <span>Eksport</span>
+    </button>
+
+    <button type="button" class="bottom-control-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Kembali ke atas halaman">
+      <span style="font-size: 15px;">▲</span>
+      <span>Ke Atas</span>
+    </button>
+  </aside>
+
+  <style>
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script src="js/api.js"></script>
+  <script src="js/ceramah.js"></script>
+</body>
+</html>

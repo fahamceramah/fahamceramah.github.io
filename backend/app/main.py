@@ -139,14 +139,20 @@ def get_dictionary_terms():
             return json.load(f)
     return {"terms": []}
 
-# Frontend Static Files
-app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
+# Frontend Static Files & Folders (Matches GitHub Pages structure)
+if (BASE_DIR / "css").exists():
+    app.mount("/css", StaticFiles(directory=str(BASE_DIR / "css")), name="css")
+if (BASE_DIR / "js").exists():
+    app.mount("/js", StaticFiles(directory=str(BASE_DIR / "js")), name="js")
+if (BASE_DIR / "data").exists():
+    app.mount("/data", StaticFiles(directory=str(BASE_DIR / "data")), name="data")
 
 @app.get("/")
+@app.get("/index.html")
 def serve_index():
-    return FileResponse(str(FRONTEND_DIR / "index.html"))
+    return FileResponse(str(BASE_DIR / "index.html"))
 
 @app.get("/ceramah")
 @app.get("/ceramah.html")
 def serve_ceramah():
-    return FileResponse(str(FRONTEND_DIR / "ceramah.html"))
+    return FileResponse(str(BASE_DIR / "ceramah.html"))
