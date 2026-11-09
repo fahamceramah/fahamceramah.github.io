@@ -101,9 +101,9 @@ export GEMINI_API_KEY="your-gemini-api-key"
 
 ### 4. Running the Web Application
 ```bash
-./venv/bin/uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+./venv/bin/uvicorn backend.app.main:app --host 0.0.0.0 --port 9591 --reload
 ```
-Open your browser or mobile phone at `http://localhost:8000`.
+Open your browser or mobile phone at `http://localhost:9591`.
 
 ### 5. Running Automated Tests
 ```bash
