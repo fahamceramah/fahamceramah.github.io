@@ -90,9 +90,7 @@ function renderCeramahPage(v) {
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-penuh">Ringkasan Penuh</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-topik">Topik & Cap Masa (${v.topics.length})</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-dalil">Dalil & Hadis (${v.religious_references.length})</button>
-      <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-faq">Soalan Lazim (${v.faq.length})</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-glosari">Glosari Istilah (${v.terminology.length})</button>
-      ${v.has_full_transcript ? '<button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-transkrip">Transkrip Lisan</button>' : ''}
     </div>
 
     <!-- TAB 1: Ringkasan Pantas -->
@@ -187,24 +185,7 @@ function renderCeramahPage(v) {
       </div>
     </div>
 
-    <!-- TAB 5: Soalan Lazim (FAQ) -->
-    <div id="tab-faq" class="tab-pane" role="tabpanel">
-      <div class="content-box">
-        <h2>Soalan Lazim Praktikal</h2>
-        <p style="color: var(--text-muted); font-size: var(--font-sm); margin-bottom: var(--space-lg);">
-          Kemusykilan harian masyarakat yang dijawab secara jelas dalam kuliah ini.
-        </p>
-
-        ${v.faq.map(f => `
-          <div class="faq-item">
-            <h3 class="faq-question">Soalan: ${f.question}</h3>
-            <p class="faq-answer"><strong>Jawapan:</strong> ${f.answer}</p>
-          </div>
-        `).join('')}
-      </div>
-    </div>
-
-    <!-- TAB 6: Glosari Istilah -->
+    <!-- TAB 5: Glosari Istilah -->
     <div id="tab-glosari" class="tab-pane" role="tabpanel">
       <div class="content-box">
         <h2>Glosari Istilah Agama & Dialek</h2>
@@ -219,26 +200,6 @@ function renderCeramahPage(v) {
         </div>
       </div>
     </div>
-
-    <!-- TAB 7: Transkrip Lisan -->
-    ${v.has_full_transcript ? `
-      <div id="tab-transkrip" class="tab-pane" role="tabpanel">
-        <div class="content-box">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-md); flex-wrap: wrap; gap: var(--space-xs);">
-            <h2>Transkrip Lisan Verbatim</h2>
-            <input type="search" id="transcript-filter" placeholder="Cari dalam transkrip..." class="search-input" style="height: 38px; max-width: 260px; font-size: var(--font-xs);">
-          </div>
-          <div id="transcript-container" style="max-height: 600px; overflow-y: auto; padding: var(--space-sm); background: var(--bg-muted); border-radius: var(--radius-md); font-size: var(--font-sm); line-height: 1.8;">
-            ${(v.transcript_segments || []).map(s => `
-              <p style="margin-bottom: 8px;">
-                <button class="timestamp-badge" style="min-height: 24px; padding: 1px 6px; font-size: 10px;" onclick="seekVideo('${s.start}', 0)">${s.start.slice(0, 8)}</button>
-                <span>${s.text}</span>
-              </p>
-            `).join('')}
-          </div>
-        </div>
-      </div>
-    ` : ''}
   `;
 
   // Setup Tabs

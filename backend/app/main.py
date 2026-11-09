@@ -92,15 +92,7 @@ def export_markdown(video_id: str):
     md += """
 ---
 
-## 5. Soalan Lazim (FAQ)
-"""
-    for faq in video.get('faq', []):
-        md += f"**S: {faq['question']}**\n\nJ: {faq['answer']}\n\n"
-
-    md += """
----
-
-## 6. Glosari Istilah
+## 5. Glosari Istilah
 """
     for term in video.get('terminology', []):
         md += f"- **{term['term']}** *({term['category']})*: {term['explanation']}\n"

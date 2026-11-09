@@ -89,20 +89,9 @@ SUMMARY_SCHEMA = {
                 },
                 "required": ["term", "category", "explanation"]
             }
-        },
-        "faq": {
-            "type": "ARRAY",
-            "items": {
-                "type": "OBJECT",
-                "properties": {
-                    "question": {"type": "STRING", "description": "Soalan kemusykilan masyarakat berkaitan bab ini"},
-                    "answer": {"type": "STRING", "description": "Jawapan berdalil berasaskan kuliah Dr. MAZA"}
-                },
-                "required": ["question", "answer"]
-            }
         }
     },
-    "required": ["summary", "topics", "religious_references", "terminology", "faq"]
+    "required": ["summary", "topics", "religious_references", "terminology"]
 }
 
 CANDIDATE_MODELS = [
@@ -130,9 +119,8 @@ MAKLUMAT KANDUNGAN / DESKRIPSI ASAL KULIAH:
 ARAHAN KHUSUS:
 1. Pastikan setiap hadis ditulis teks matan bahasa Arab lengkap dengan baris (tashkeel), perawi sahabat, kitab rujukan hadis, dan status darjat hadis.
 2. Buat sekurang-kurangnya 5 hingga 8 topik perbincangan berturutan dengan anggaran cap masa (timestamp) dari 00:00 hingga minit akhir kuliah.
-3. Sediakan sekurang-kurangnya 3 hingga 5 Soalan Lazim (FAQ) praktikal masyarakat yang dijawab dalam kuliah.
-4. Sediakan senarai glosari istilah fiqh, hadis dan dialek tempatan yang berkaitan.
-5. Sediakan ringkasan eksekutif (short) dan huraian penuh (detailed) yang sangat terperinci dan berwibawa."""
+3. Sediakan senarai glosari istilah fiqh, hadis dan dialek tempatan yang berkaitan.
+4. Sediakan ringkasan eksekutif (short) dan huraian penuh (detailed) yang sangat terperinci dan berwibawa."""
 
     last_err = None
     for model_name in CANDIDATE_MODELS:

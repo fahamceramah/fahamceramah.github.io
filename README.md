@@ -14,8 +14,6 @@ The starting collection covers the first 10 lectures of the renowned **Bulughul 
    - **Peta Topik & Cap Masa (Timestamps):** Clickable timeline timestamps that jump directly into the embedded YouTube video player.
    - **Dalil Al-Quran & Hadis Sahih:** Complete Arabic text with diacritics (*tashkeel*), Malay translation, narrator companion, source book, and verification status.
    - **Glosari Istilah Agama & Dialek:** Definitions of Arabic terms, fiqh concepts, and Northern Malaysian dialect expressions.
-   - **Soalan Lazim (FAQ):** Everyday practical questions answered during the lecture.
-   - **Transkrip Lisan Verbatim:** Full spoken transcript with instant in-page keyword search.
 
 2. **Mobile-First & WCAG 2.2 AA Accessibility:**
    - Fluid typography scaling (`A-`, `A`, `A+`) without text clipping at 200% zoom.

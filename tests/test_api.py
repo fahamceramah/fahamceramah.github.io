@@ -27,7 +27,6 @@ def test_api_video_detail_siri1():
     assert len(v["summary"]["key_takeaways"]) >= 3
     assert len(v["topics"]) >= 5
     assert len(v["religious_references"]) >= 1
-    assert len(v["faq"]) >= 2
     assert len(v["terminology"]) >= 2
 
 def test_api_video_detail_siri2():
