@@ -42,8 +42,6 @@ def init_db():
     );
     """)
 
-    # Drop old FTS if needed and recreate standalone FTS5
-    cursor.execute("DROP TABLE IF EXISTS videos_fts;")
     cursor.execute("""
     CREATE VIRTUAL TABLE IF NOT EXISTS videos_fts USING fts5(
         video_id UNINDEXED,
@@ -54,6 +52,19 @@ def init_db():
         topics_text
     );
     """)
+
+    # Ensure FTS is fully in sync with videos table
+    cursor.execute("SELECT COUNT(*) FROM videos")
+    video_count = cursor.fetchone()[0]
+    cursor.execute("SELECT COUNT(*) FROM videos_fts")
+    fts_count = cursor.fetchone()[0]
+
+    if fts_count < video_count:
+        cursor.execute("DELETE FROM videos_fts;")
+        cursor.execute("""
+        INSERT INTO videos_fts (video_id, title, short_title, summary_short, summary_detailed, topics_text)
+        SELECT video_id, title, short_title, summary_short, summary_detailed, '' FROM videos;
+        """)
 
     conn.commit()
     conn.close()
