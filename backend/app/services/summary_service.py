@@ -95,9 +95,9 @@ SUMMARY_SCHEMA = {
 }
 
 CANDIDATE_MODELS = [
-    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
     "gemini-3.1-flash-lite",
-    "gemini-2.5-flash-lite"
+    "gemini-3.5-flash"
 ]
 
 def generate_video_summary(video_meta: Dict[str, Any], transcript_sample: Optional[str] = None) -> Dict[str, Any]:
